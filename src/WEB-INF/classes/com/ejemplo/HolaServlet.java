@@ -10,7 +10,7 @@ public class HolaServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
-        request.setAttribute("mensaje", "¡Hola soy Redu y estoy haciendo hotdeply!");
+        request.setAttribute("mensaje", "¡Hola soy Redu y esto haciendo cosas en git. Ivan, el coche lo deje perfe !");
         request.getRequestDispatcher("/hola.jsp").forward(request, response);
     }
 }
